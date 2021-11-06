@@ -18,5 +18,5 @@
 
 ## Done
 
-- make basic framework
+- add basic structure and navigation
 - add page contents
