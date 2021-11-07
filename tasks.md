@@ -2,7 +2,6 @@
 
 ### Todo
 
-- add contact us form
 - add styles
 - fix typos
 - make text case uniform
@@ -27,3 +26,4 @@
 - add text contents
 - add images
 - add links (buttons)
+- add contact us form
