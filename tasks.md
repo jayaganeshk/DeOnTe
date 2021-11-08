@@ -2,11 +2,13 @@
 
 ### Todo
 
+- add router
 - add styles
 - fix typos
 - make text case uniform
 
 ### In Progress
+
 
 ### Clarify
 
