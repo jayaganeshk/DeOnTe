@@ -2,7 +2,6 @@
 
 ### Todo
 
-- add router
 - add styles
 - fix typos
 - make text case uniform
@@ -29,3 +28,4 @@
 - add images
 - add links (buttons)
 - add contact us form
+- add router
