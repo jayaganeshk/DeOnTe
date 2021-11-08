@@ -1,0 +1,16 @@
+{
+  "name": "deonte",
+  "version": "0.1.0",
+  "description": "Website for Deep On Technology",
+  "source": "index.html",
+  "scripts": {
+    "build": "parcel build",
+    "start": "parcel"
+  },
+  "dependencies": {
+    "@vipranaraya14/view-router": "github:vipranarayan14/view-router"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
