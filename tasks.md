@@ -2,12 +2,12 @@
 
 ### Todo
 
-- add styles
 - fix typos
 - make text case uniform
 
 ### In Progress
 
+- add styles
 
 ### Clarify
 
