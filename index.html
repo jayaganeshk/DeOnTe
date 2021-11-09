@@ -14,17 +14,40 @@
         display: none;
       }
     </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
+      <span class="icon menu-icon" role="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+          <path
+            d="M5 15 H95 M5 50 H95 M5 85 H95"
+            style="
+              stroke: black;
+              stroke-width: 10;
+              fill: none;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+            "
+          />
+        </svg>
+      </span>
       <h1>D.O.T.</h1>
     </header>
 
-    <nav>
+    <nav class="nav-bar">
       <ul>
         <li><a href="#/Home">Home</a></li>
         <li>
           Our Services
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+              <path
+                d="M25 60 L50 90 L75 60 Z"
+                style="stroke: black; stroke-width: 10; stroke-linejoin: round"
+              />
+            </svg>
+          </span>
           <ul>
             <li>
               <a href="#/Our_Services/Email_and_SMS_Broadcasting"
