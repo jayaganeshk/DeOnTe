@@ -7,6 +7,7 @@
 
 ### In Progress
 
+- fix dropdown icon alignment
 - add styles
 
 ### Clarify
