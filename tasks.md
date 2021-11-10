@@ -7,7 +7,6 @@
 
 ### In Progress
 
-- fix dropdown icon alignment
 - add styles
 
 ### Clarify
@@ -31,3 +30,4 @@
 - add links (buttons)
 - add contact us form
 - add router
+- fix dropdown icon alignment
