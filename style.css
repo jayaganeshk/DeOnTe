@@ -1,9 +1,9 @@
 :root {
   --theme-bg-color: #fff;
   --theme-bg-color2: #ffae00;
+  --theme-bg-color2-light: #ffcf67;
   --theme-fg-color: #000;
-  --theme-nav-hover-color: rgba(0, 0, 0, 0.15);
-  --theme-nav-hover-transition: background-color 0.3s ease-in;
+  --theme-nav-hover-color: rgba(0, 0, 0, 0.12);
 }
 
 * {
@@ -35,7 +35,7 @@ header {
 
 header h1 {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 header .icon.menu-icon {
@@ -49,7 +49,7 @@ header .icon.menu-icon:hover {
   transition: background-color 0.5s ease-in-out;
 }
 
-.nav-bar.open::after {
+header .nav-bar.open::after {
   content: "";
   position: fixed;
   top: 0;
@@ -60,12 +60,12 @@ header .icon.menu-icon:hover {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.nav-bar ul {
+header .nav-bar ul {
   padding: 0;
   list-style-type: none;
 }
 
-.nav-bar > ul {
+header .nav-bar > ul {
   margin: 0;
   padding: 10px;
   position: fixed;
@@ -80,45 +80,119 @@ header .icon.menu-icon:hover {
   transition: left 0.3s ease-out;
 }
 
-.nav-bar.open > ul {
+header .nav-bar.open > ul {
   left: 0;
   transition: left 0.3s ease-in-out;
 }
 
-.nav-bar > ul li {
+header .nav-bar > ul li {
   display: block;
   font-weight: bold;
 }
 
-.nav-bar > ul ul li {
+header .nav-bar > ul li ul {
+  margin-left: 15px;
+}
+
+header .nav-bar > ul li ul li {
   font-weight: normal;
 }
 
-.nav-bar > ul > li:nth-child(2) {
-  margin-left: 15px;
-  margin-top: 15px;
-}
-
-.nav-bar > ul > li:nth-child(2)::after {
-  content: "";
-}
-
-.nav-bar > ul a {
+header .nav-bar > ul .submenu-heading,
+header .nav-bar > ul a {
   padding: 15px;
   color: var(--theme-fg-color);
   text-decoration: none;
   display: block;
-  background-color: white;
   border-radius: 0 15px 15px 0;
   transition: background-color 0.5s ease-out;
 }
 
-.nav-bar > ul a:hover {
+header .nav-bar > ul a:hover,
+header .nav-bar > ul a:focus {
   background-color: var(--theme-nav-hover-color);
   transition: background-color 0.5s ease-in-out;
 }
 
-.nav-bar > ul a:active {
-  background-color: var(--theme-bg-color2);
-  transition: background-color 0.1s ease-out;
+header .nav-bar > ul a:active {
+  background-color: var(--theme-bg-color2-light);
+  transition: background-color 0.2s ease-out;
+}
+
+/* From tablet width onwards */
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .icon.menu-icon {
+    display: none;
+  }
+
+  header .nav-bar {
+    display: inline-block;
+  }
+
+  header .nav-bar.open::after {
+    content: none;
+  }
+
+  header .nav-bar > ul {
+    padding: 0;
+    position: relative;
+    left: auto;
+    top: auto;
+    z-index: auto;
+    max-width: none;
+    background: none;
+    box-shadow: none;
+    border-right: none;
+    transition: none;
+    display: flex;
+  }
+
+  header .nav-bar > ul > li {
+    margin: 0 2px;
+  }
+
+  header .nav-bar > ul a {
+    border-radius: 12px;
+  }
+
+  header .nav-bar > ul a:hover,
+  header .nav-bar > ul a:focus {
+    border-radius: 15px;
+    transition: border-radius 0.3s ease-in-out;
+  }
+
+  header .nav-bar > ul li .submenu-heading {
+    padding: 15px;
+    display: inline-block;
+    border-radius: 15px 15px 0 0;
+  }
+
+  header .nav-bar > ul li ul {
+    margin-left: 0;
+    position: absolute;
+    background-color: var(--theme-bg-color2-light);
+    border-radius: 0 5px 5px 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  header .nav-bar > ul li:focus-within .submenu-heading,
+  header .nav-bar > ul li:hover .submenu-heading {
+    background-color: var(--theme-bg-color2-light);
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  header .nav-bar > ul li:hover ul,
+  header .nav-bar > ul li ul:focus-within {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 0.5s ease-in-out;
+  }
 }
