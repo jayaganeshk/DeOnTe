@@ -20,6 +20,7 @@
 - !!! @JG 'Contact us' instead of 'Get started' in service pages?
 - !!! @JG Duplicate 'Drive Website Visits' in 'Email SMS page'
 - !!! @JG Do you need services overview on homepage or shall we have only banner and link to services?
+    - !!! @JG Remove Our service submenu?
 - !!! @JG Do you want seperate files for each pages?
 ### Done
 
