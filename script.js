@@ -1,6 +1,6 @@
 import initRouter from "@vipranaraya14/view-router";
 
-const menuBtn = document.querySelector("header .menu-icon");
+const menuBtn = document.querySelector("header .menu-btn");
 const navBar = document.querySelector("nav");
 
 const handleWindowLoadEvent = () => {

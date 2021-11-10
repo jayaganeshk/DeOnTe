@@ -15,22 +15,34 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .icon {
-  display: inline-block;
+  color: var(--theme-fg-color);
 }
 
 .icon svg {
-  height: 20px;
+  height: 1em;
+  width: 1em;
+  font-size: inherit;
+  vertical-align: -0.125em;
+  fill: currentColor;
+  stroke: currentColor;
 }
 
 header {
-  padding: 10px 10px;
+  padding: 10px;
   position: sticky;
   top: 0;
   left: 0;
   background-color: var(--theme-bg-color2);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
@@ -38,15 +50,25 @@ header h1 {
   margin: 0 15px;
 }
 
-header .icon.menu-icon {
-  padding: 5px 5px 0 5px;
+header .menu-btn {
+  padding: 4px 6px;
+  border: none;
+  background-color: transparent;
+  border-radius: 10%;
   transition: background-color 0.5s ease-out;
 }
 
-header .icon.menu-icon:hover {
+header .menu-btn:hover {
   background-color: var(--theme-nav-hover-color);
-  border-radius: 10%;
   transition: background-color 0.5s ease-in-out;
+}
+
+header .icon.icon-menu {
+  font-size: 1.7em;
+}
+
+header .icon.icon-menu svg {
+  vertical-align: -0.2em;
 }
 
 header .nav-bar.open::after {
@@ -121,13 +143,7 @@ header .nav-bar > ul a:active {
 
 /* From tablet width onwards */
 @media (min-width: 768px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  header .icon.menu-icon {
+  header .menu-btn {
     display: none;
   }
 

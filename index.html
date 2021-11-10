@@ -14,24 +14,17 @@
         display: none;
       }
     </style>
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>
-      <span class="icon menu-icon" role="button">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-          <path
-            d="M5 15 H95 M5 50 H95 M5 85 H95"
-            style="
-              stroke: black;
-              stroke-width: 10;
-              fill: none;
-              stroke-linecap: round;
-              stroke-linejoin: round;
-            "
-          />
-        </svg>
-      </span>
+      <button class="menu-btn">
+        <span class="icon icon-menu">
+          <svg><use xlink:href="#icon-menu"></use></svg>
+        </span>
+      </button>
 
       <h1>D.O.T.</h1>
 
@@ -41,17 +34,8 @@
           <li>
             <span class="submenu-heading">
               Our Services
-              <span class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                  <path
-                    d="M25 60 L50 90 L75 60 Z"
-                    style="
-                      stroke: black;
-                      stroke-width: 10;
-                      stroke-linejoin: round;
-                    "
-                  />
-                </svg>
+              <span class="icon icon-down">
+                <svg><use xlink:href="#icon-down"></use></svg>
               </span>
             </span>
             <ul>
@@ -450,6 +434,34 @@
       </section>
     </main>
     <footer></footer>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      style="display: none"
+    >
+      <defs>
+        <symbol id="icon-menu" viewBox="0 0 100 100">
+          <title>Menu</title>
+          <path
+            d="M5 15 H95 M5 50 H95 M5 85 H95"
+            style="
+              stroke-width: 10;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+            "
+          />
+        </symbol>
+
+        <symbol id="icon-down" viewBox="0 0 100 100">
+          <title>Arrow down</title>
+          <path
+            d="M25 45 L50 75 L75 45 Z"
+            style="stroke-width: 10; stroke-linejoin: round"
+          />
+        </symbol>
+      </defs>
+    </svg>
 
     <script type="module" src="./script.js"></script>
   </body>
