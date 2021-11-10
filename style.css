@@ -92,19 +92,19 @@ header .nav-bar > ul {
   padding: 10px;
   position: fixed;
   top: 0;
-  left: -100%;
+  left: -50%;
   z-index: 2;
   bottom: 0;
   max-width: 70%;
   background-color: var(--theme-bg-color);
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
   border-right: 7px var(--theme-bg-color2) solid;
-  transition: left 0.3s ease-out;
+  transition: left 0.4s ease-out;
 }
 
 header .nav-bar.open > ul {
   left: 0;
-  transition: left 0.3s ease-in-out;
+  transition: left 0.4s ease-in-out;
 }
 
 header .nav-bar > ul li {
