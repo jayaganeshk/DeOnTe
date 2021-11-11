@@ -2,9 +2,9 @@
   "name": "deonte",
   "version": "0.1.0",
   "description": "Website for Deep On Technology",
-  "source": "index.html",
+  "source": "src/index.html",
   "scripts": {
-    "build": "parcel build",
+    "build": "rm -rf dist && parcel build",
     "start": "parcel"
   },
   "dependencies": {
