@@ -1,7 +1,7 @@
 .banner {
   display: flex;
   flex-direction: column-reverse;
-  margin: 75px 20px;
+  margin: 50px 20px 75px 20px;
   text-align: center;
 }
 
