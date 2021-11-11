@@ -1,0 +1,33 @@
+.tiles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tiles .tile {
+  margin: 0 20px;
+}
+
+.tiles .tile .heading {
+  font-size: 1.5em;
+}
+
+.tiles .tile .image img {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* From tablet width onwards */
+@media (min-width: 768px) {
+  .tiles {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .tiles .tile .image img {
+    max-height: 500px;
+    max-width: 400px;
+  }
+}
