@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Nova+Square&display=swap");
 
-@import url("./header.css");
 @import url("./banner.css");
+@import url("./header.css");
 @import url("./link-button.css");
 @import url("./overview.css");
+@import url("./results.css");
 @import url("./tiles.css");
 @import url("./why-us.css");
 
