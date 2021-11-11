@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.banner .heading {
+  font-size: 1.7em;
+}
+
 .banner .image img {
   width: 100%;
 }
