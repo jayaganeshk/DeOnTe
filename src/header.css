@@ -12,7 +12,7 @@ header {
   align-items: center;
 }
 
-header h1 {
+header .heading {
   display: inline-block;
   margin: 0 15px;
   font-family: "Nova Square", cursive;
