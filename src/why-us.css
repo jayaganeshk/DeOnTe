@@ -2,8 +2,13 @@
   font-size: 2.5em;
 }
 
-#\/Why_Us .banner .image img {
-  max-height: 400px;
-  height: auto;
-  width: auto;
+@media (min-width: 768px) {
+  #\/Why_Us .banner .description .heading {
+    text-align: right;
+  }
+
+  #\/Why_Us .banner .image img {
+    height: 400px;
+    width: auto;
+  }
 }
