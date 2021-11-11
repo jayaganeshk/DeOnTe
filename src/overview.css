@@ -1,5 +1,4 @@
 .overview {
-  margin-top: 80px;
   text-align: center;
 }
 
@@ -7,8 +6,10 @@
   font-size: 1.5em;
 }
 
-.overview p {
+.overview > p {
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overview .overview-item {
@@ -48,8 +49,6 @@
   }
   .overview .overview-item {
     flex-direction: row;
-    height: 300px;
-    max-height: 300px;
     align-items: center;
     justify-content: space-evenly;
   }
@@ -58,20 +57,19 @@
     flex-direction: row-reverse;
   }
 
-  .overview-item .description {
+  .overview .overview-item .description {
     max-width: 500px;
     min-width: 200px;
     border-radius: 8px;
   }
 
   .overview .overview-item .image {
-    height: inherit;
     display: flex;
     align-items: center;
   }
 
   .overview .overview-item img {
-    max-height: 100%;
+    max-height: 500px;
     height: auto;
     width: auto;
     min-width: 300px;

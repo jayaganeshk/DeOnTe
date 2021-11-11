@@ -25,6 +25,10 @@ body {
   font-size: 18px;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .icon {
   color: var(--theme-fg-color);
 }
