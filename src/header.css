@@ -61,7 +61,7 @@ header .nav-bar > ul {
   padding: 10px;
   position: fixed;
   top: 0;
-  left: -50%;
+  left: -75%;
   z-index: 2;
   bottom: 0;
   max-width: 70%;
@@ -156,6 +156,8 @@ header .nav-bar > ul a:active {
     padding: 15px;
     display: inline-block;
     border-radius: 15px 15px 0 0;
+    cursor: pointer;
+    user-select: none;
   }
 
   header .nav-bar > ul li ul {
