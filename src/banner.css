@@ -5,8 +5,12 @@
   text-align: center;
 }
 
-.banner .heading {
+.banner .description .heading {
   font-size: 1.7em;
+}
+
+.banner .description .heading.lone {
+  font-size: 2.5em;
 }
 
 .banner .image img {
@@ -21,6 +25,10 @@
     justify-content: center;
   }
 
+  .banner .description .heading.lone {
+    text-align: right;
+  }
+
   .banner .description {
     width: 400px;
     min-width: 300px;
@@ -29,5 +37,10 @@
   .banner .image {
     width: 800px;
     margin-left: 50px;
+  }
+
+  .banner .image.small img {
+    height: 400px;
+    width: auto;
   }
 }
