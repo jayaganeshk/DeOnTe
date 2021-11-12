@@ -2,7 +2,6 @@
 
 ### Todo
 
-- fix icons not displaying in prod 
 - add footer with ?(contact info) & copyright
 - fix typos
 - make text case uniform
@@ -33,3 +32,4 @@
 - add contact us form
 - add router
 - fix dropdown icon alignment
+- fix icons not displaying in prod 
