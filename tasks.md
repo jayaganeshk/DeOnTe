@@ -2,6 +2,8 @@
 
 ### Todo
 
+- fix icons not displaying in prod 
+- add footer with ?(contact info) & copyright
 - fix typos
 - make text case uniform
 
