@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-menu" viewBox="0 0 100 100">
+            <path d="M5 15 H95 M5 50 H95 M5 85 H95" style="
+              stroke-width: 10;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+            " />
+        </symbol>
+
+        <symbol id="icon-down" viewBox="0 0 100 100">
+            <path d="M25 45 L50 75 L75 45 Z" style="stroke-width: 10; stroke-linejoin: round" />
+        </symbol>
+    </defs>
+</svg>
