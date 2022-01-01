@@ -27,6 +27,7 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+
   .tiles .tile .image img {
     max-height: 500px;
     max-width: 400px;
