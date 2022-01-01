@@ -5,10 +5,17 @@
 - add footer with ?(contact info) & copyright
 - fix typos
 - make text case uniform
+- logo
+- link logo to home page
+- make mobile landscape nav menu overflow scroll
+- fix mobile landscape services menu hover
+- rename 'link-button' class to 'button'
 
 ### In Progress
 
-- add styles
+- icons
+    - email
+    - msg/phone
 
 ### Clarify
 
@@ -35,3 +42,5 @@
 - add router
 - fix dropdown icon alignment
 - fix icons not displaying in prod 
+- add styles
+
