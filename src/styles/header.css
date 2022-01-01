@@ -97,6 +97,7 @@ header .nav-bar > ul a {
   display: block;
   border-radius: 0 15px 15px 0;
   transition: background-color 0.5s ease-out;
+  outline: none;
 }
 
 header .nav-bar > ul a:hover,
