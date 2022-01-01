@@ -1,23 +1,32 @@
 a.link-button {
   text-decoration: none;
-  color: var(--theme-fg-color);
   display: inline-block;
+}
+
+button.link-button {
+  border: none;
+}
+
+.link-button {
+  color: var(--theme-fg-color);
   padding: 10px 15px;
   margin-top: 5px;
   border-radius: 5px;
   background-color: var(--theme-bg-color2-light);
   /* box-shadow: 0 2px 4px 2px #999; */
   transition: all 0.25s ease-in-out;
+  font-weight: bold;
+  font-size: inherit;
 }
 
-a.link-button:hover {
+.link-button:hover {
   box-shadow: 0 2px 4px 2px #999;
   /* box-shadow: 0 3px 5px 3px #999; */
   transform: scale(1.01);
   transition: all 0.25s ease-in-out;
 }
 
-a.link-button:active {
+.link-button:active {
   box-shadow: none;
   transition: all 0.25s ease-in-out;
 }
