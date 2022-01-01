@@ -1,0 +1,26 @@
+form.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form.form label,
+form.form .link-button {
+  margin-top: 15px;
+}
+
+form.form input,
+form.form textarea {
+  font-family: inherit;
+  font-size: 1.1em;
+  border-radius: 5px;
+  border: 2px solid var(--theme-fg-color);
+  color: var(--theme-fg-color);
+  padding: 10px;
+  width: 100%;
+}

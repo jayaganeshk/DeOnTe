@@ -549,39 +549,59 @@
         </div>
       </section>
 
-      <section id="/Contact_Us">
-        <h2 class="heading">Contact Us</h2>
-        <img src="assets/images/Contactus1.png" alt="Contact Us" />
-        <form>
-          <div>
-            <label for="name">Your name</label>
-            <input type="text" name="name" id="input-name" />
+      <section id="/Contact_Us" class="contact-us">
+        <div class="banner">
+          <div class="description">
+            <h2 class="heading lone">Contact Us</h2>
+          </div>
+          <div class="image small">
+            <img src="assets/images/Contactus1.png" alt="Contact Us" />
+          </div>
+        </div>
+        <div>
+          <div class="contact-form">
+            <h3 class="heading">Write to us</h3>
+            <form class="form">
+              <div>
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="input-name" required />
+              </div>
+              <div>
+                <label for="company">Company name</label>
+                <input type="text" name="company" id="input-company" required />
+              </div>
+              <div>
+                <label for="tel">Phone number</label>
+                <input type="tel" name="tel" id="input-tel" required />
+              </div>
+              <div>
+                <label for="email">Email id</label>
+                <input type="email" name="email" id="input-email" required />
+              </div>
+              <div>
+                <label for="query">Your query</label>
+                <textarea name="query" id="input-query" required></textarea>
+              </div>
+              <div>
+                <button type="submit" class="link-button">Submit</button>
+              </div>
+            </form>
           </div>
 
-          <div>
-            <label for="company">Company name</label>
-            <input type="text" name="company" id="input-company" />
+          <div class="contact-details">
+            <h3 class="heading">Other ways to reach us</h3>
+            <div>
+              <p>
+                <span class="icon"> Email: </span>
+                <span> techneeks.inc@gmail.com </span>
+              </p>
+              <p>
+                <span class="icon"> Message/Phone: </span>
+                <span> +91 95858 94742 </span>
+              </p>
+            </div>
           </div>
-
-          <div>
-            <label for="tel">Phone number</label>
-            <input type="tel" name="tel" id="input-tel" />
-          </div>
-
-          <div>
-            <label for="email">Email id</label>
-            <input type="email" name="email" id="input-email" />
-          </div>
-
-          <div>
-            <label for="query">Your query</label>
-            <textarea name="query" id="input-query"></textarea>
-          </div>
-
-          <div>
-            <button type="submit">Submit</button>
-          </div>
-        </form>
+        </div>
       </section>
     </main>
 
