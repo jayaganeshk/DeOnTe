@@ -22,11 +22,12 @@ button.link-button {
 .link-button:hover {
   box-shadow: 0 2px 4px 2px #999;
   /* box-shadow: 0 3px 5px 3px #999; */
-  transform: scale(1.01);
-  transition: all 0.25s ease-in-out;
+  transform: translateY(-2px);
+  transition: all 0.15s ease-in-out;
 }
 
 .link-button:active {
   box-shadow: none;
-  transition: all 0.25s ease-in-out;
+  transform: translateY(0px);
+  transition: all 0.15s ease-in-out;
 }
