@@ -27,7 +27,7 @@ form.form textarea {
 
 form.form input:focus,
 form.form textarea:focus {
-  background-color: var(--theme-color-bg-2);
+  background-color: var(--theme-color-hover);
 }
 
 form.form textarea {
