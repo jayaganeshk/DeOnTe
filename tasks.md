@@ -7,12 +7,11 @@
 - make text case uniform
 - logo
 - link logo to home page
-- make mobile landscape nav menu overflow scroll
 - fix mobile landscape services menu hover
 
 ### In Progress
 
-- rename 'link-button' class to 'button'
+- make sidenav scrollable on overflow
 
 ### Clarify
 
@@ -42,3 +41,4 @@
 - add styles
 - use icons in contact details
 - make textarea resizable vertically only
+- rename 'link-button' class to 'button'
