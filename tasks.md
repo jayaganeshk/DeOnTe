@@ -2,16 +2,15 @@
 
 ### Todo
 
-- add footer with ?(contact info) & copyright
 - fix typos
 - make text case uniform
 - logo
 - link logo to home page
-- fix mobile landscape services menu hover
+- fix touchscreen landscape services menu hover
 
 ### In Progress
 
-- make sidenav scrollable on overflow
+- add footer with copyright
 
 ### Clarify
 
@@ -42,3 +41,4 @@
 - use icons in contact details
 - make textarea resizable vertically only
 - rename 'link-button' class to 'button'
+- make sidenav scrollable on overflow
