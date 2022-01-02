@@ -13,9 +13,7 @@
 
 ### In Progress
 
-- icons
-    - email
-    - msg/phone
+- make textarea resizable vertically only
 
 ### Clarify
 
@@ -43,4 +41,4 @@
 - fix dropdown icon alignment
 - fix icons not displaying in prod 
 - add styles
-
+- use icons in contact details
