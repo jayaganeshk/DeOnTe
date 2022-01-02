@@ -2,6 +2,7 @@
 
 @import url("./banner.css");
 @import url("./contact-us.css");
+@import url("./footer.css");
 @import url("./form.css");
 @import url("./header.css");
 @import url("./button.css");
@@ -14,6 +15,7 @@
   --theme-color-bg-2: #ffcf67;
   --theme-color-bg-3: #ffffff;
   --theme-color-fg-1: #000000;
+  --theme-color-fg-2: #252525;
 
   --theme-color-hover: rgba(0, 0, 0, 0.12);
 }

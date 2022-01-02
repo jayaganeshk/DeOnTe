@@ -1,0 +1,9 @@
+footer {
+  text-align: center;
+  color: var(--theme-color-fg-2);
+  padding: 10px;
+}
+
+footer .copyright {
+  font-size: 0.8em;
+}
