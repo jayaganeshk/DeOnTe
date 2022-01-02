@@ -10,7 +10,7 @@
 
 ### In Progress
 
-- add footer with copyright
+- fix nav overflow in largescreen
 
 ### Clarify
 
@@ -42,3 +42,4 @@
 - make textarea resizable vertically only
 - rename 'link-button' class to 'button'
 - make sidenav scrollable on overflow
+- add footer with copyright
