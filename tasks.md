@@ -6,11 +6,10 @@
 - make text case uniform
 - logo
 - link logo to home page
-- fix touchscreen landscape services menu hover
 
 ### In Progress
 
-- fix nav overflow in largescreen
+- make submenu usable on touchscreens
 
 ### Clarify
 
@@ -43,3 +42,4 @@
 - rename 'link-button' class to 'button'
 - make sidenav scrollable on overflow
 - add footer with copyright
+- fix nav overflow in largescreen
