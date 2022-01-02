@@ -180,6 +180,8 @@ header .nav-bar > ul a:active {
   }
 
   header .nav-bar > ul li:hover ul,
+  header .nav-bar > ul li:focus ul,
+  header .nav-bar > ul li:active ul,
   header .nav-bar > ul li ul:focus-within {
     opacity: 1;
     pointer-events: all;
