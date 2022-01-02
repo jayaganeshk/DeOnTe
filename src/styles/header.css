@@ -69,6 +69,7 @@ header .nav-bar > ul {
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
   border-right: 7px var(--theme-color-bg-1) solid;
   transition: left 0.4s ease-out;
+  overflow-y: scroll;
 }
 
 header .nav-bar.open > ul {
