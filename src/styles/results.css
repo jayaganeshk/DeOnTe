@@ -28,7 +28,7 @@
 }
 
 .results .cards .card .description {
-  border-top: 15px solid var(--theme-bg-color2-light);
+  border-top: 15px solid var(--theme-color-bg-2);
   padding: 10px;
   height: 200px;
 }

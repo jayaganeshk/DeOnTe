@@ -4,8 +4,8 @@
 
 .contact-us .contact-form,
 .contact-us .contact-details {
-  border-top: 15px solid var(--theme-bg-color2-light);
-  background-color: var(--theme-bg-color);
+  border-top: 15px solid var(--theme-color-bg-2);
+  background-color: var(--theme-color-bg-3);
   box-shadow: 0 4px 8px 0 #999;
   text-align: center;
   margin-bottom: 80px;

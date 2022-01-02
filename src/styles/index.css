@@ -10,11 +10,12 @@
 @import url("./tiles.css");
 
 :root {
-  --theme-bg-color: #fff;
-  --theme-bg-color2: #ffae00;
-  --theme-bg-color2-light: #ffcf67;
-  --theme-fg-color: #000;
-  --theme-nav-hover-color: rgba(0, 0, 0, 0.12);
+  --theme-color-bg-1: #ffae00;
+  --theme-color-bg-2: #ffcf67;
+  --theme-color-bg-3: #ffffff;
+  --theme-color-fg-1: #000000;
+
+  --theme-color-hover: rgba(0, 0, 0, 0.12);
 }
 
 * {
@@ -35,7 +36,7 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--theme-fg-color);
+  color: var(--theme-color-fg-1);
 }
 
 a:hover {
@@ -43,7 +44,7 @@ a:hover {
 }
 
 .icon {
-  color: var(--theme-fg-color);
+  color: var(--theme-color-fg-1);
 }
 
 .icon svg {

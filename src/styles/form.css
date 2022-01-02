@@ -19,10 +19,15 @@ form.form textarea {
   font-family: inherit;
   font-size: 1.1em;
   border-radius: 5px;
-  border: 2px solid var(--theme-fg-color);
-  color: var(--theme-fg-color);
+  border: 2px solid var(--theme-color-fg-1);
+  color: var(--theme-color-fg-1);
   padding: 10px;
   width: 100%;
+}
+
+form.form input:focus,
+form.form textarea:focus {
+  background-color: var(--theme-color-bg-2);
 }
 
 form.form textarea {

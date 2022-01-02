@@ -8,11 +8,11 @@ button.link-button {
 }
 
 .link-button {
-  color: var(--theme-fg-color);
+  color: var(--theme-color-fg-1);
   padding: 10px 15px;
   margin-top: 5px;
   border-radius: 5px;
-  background-color: var(--theme-bg-color2-light);
+  background-color: var(--theme-color-bg-2);
   /* box-shadow: 0 2px 4px 2px #999; */
   transition: all 0.25s ease-in-out;
   font-weight: bold;
