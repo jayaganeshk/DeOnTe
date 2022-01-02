@@ -2,13 +2,12 @@
 
 ### Todo
 
-- fix typos
-- make text case uniform
 - logo
 
 ### In Progress
 
-- link logo to homepage
+- fix typos
+- make text case uniform
 
 ### Clarify
 
@@ -43,3 +42,4 @@
 - add footer with copyright
 - fix nav overflow in largescreen
 - make submenu usable on touchscreens
+- link logo to homepage
