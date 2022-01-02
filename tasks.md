@@ -9,11 +9,10 @@
 - link logo to home page
 - make mobile landscape nav menu overflow scroll
 - fix mobile landscape services menu hover
-- rename 'link-button' class to 'button'
 
 ### In Progress
 
-- make textarea resizable vertically only
+- rename 'link-button' class to 'button'
 
 ### Clarify
 
@@ -42,3 +41,4 @@
 - fix icons not displaying in prod 
 - add styles
 - use icons in contact details
+- make textarea resizable vertically only
