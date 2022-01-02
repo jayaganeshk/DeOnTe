@@ -138,6 +138,7 @@ header .nav-bar > ul a:active {
     border-right: none;
     transition: none;
     display: flex;
+    overflow-y: visible;
   }
 
   header .nav-bar > ul > li {
