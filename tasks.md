@@ -2,18 +2,16 @@
 
 ### Todo
 
-- logo
 - fix: scroll to top on page navigation
 - optimise page load delay
-- contact form api
 - contact form link label to input fields
+- contact form api
+- captcha
 - footer contact details with bubble design
 - dark mode
-- captcha
 
 ### In Progress
 
-- use appropriate titles for buttons
 
 ### Clarify
 
@@ -55,3 +53,5 @@
 - fix typos
 - make text case uniform
 - optimise images - file size & lazy-loading
+- use appropriate titles for buttons
+- replace logo placeholder with logo img
