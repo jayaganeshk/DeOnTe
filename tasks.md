@@ -4,7 +4,6 @@
 
 - fix: scroll to top on page navigation
 - optimise page load delay
-- contact form link label to input fields
 - contact form api
 - captcha
 - footer contact details with bubble design
@@ -12,6 +11,7 @@
 
 ### In Progress
 
+- fix label and input association
 
 ### Clarify
 
