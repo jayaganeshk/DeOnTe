@@ -126,6 +126,10 @@ header .nav-bar > ul a:active {
     display: none;
   }
 
+  header .logo img {
+    height: 50px;
+  }
+
   header .nav-bar {
     display: inline-block;
   }
