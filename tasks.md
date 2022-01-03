@@ -11,7 +11,6 @@
 
 ### In Progress
 
-- fix label and input association
 
 ### Clarify
 
@@ -55,3 +54,4 @@
 - optimise images - file size & lazy-loading
 - use appropriate titles for buttons
 - replace logo placeholder with logo img
+- fix label and input association
