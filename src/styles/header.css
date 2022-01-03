@@ -8,7 +8,6 @@ header {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -16,11 +15,13 @@ header a:hover {
   text-decoration: none;
 }
 
-header .heading {
+header .logo {
   display: inline-block;
   margin: 0 15px;
-  font-family: "Nova Square", cursive;
-  font-weight: normal;
+}
+
+header .logo img {
+  vertical-align: -0.3em;
 }
 
 header .menu-btn {
@@ -117,6 +118,10 @@ header .nav-bar > ul a:active {
 
 /* From tablet width onwards */
 @media (min-width: 768px) {
+  header {
+    justify-content: space-between;
+  }
+
   header .menu-btn {
     display: none;
   }
