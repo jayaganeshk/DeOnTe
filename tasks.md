@@ -6,15 +6,14 @@
 - fix: scroll to top on page navigation
 - optimise page load delay
 - contact form api
-- footer contact details
+- contact form link label to input fields
+- footer contact details with bubble design
 - dark mode
-- get started -> contact us
-- get started -> more info
 - captcha
 
 ### In Progress
 
-- optimise images - file size & lazy-loading
+- use appropriate titles for buttons
 
 ### Clarify
 
@@ -55,3 +54,4 @@
 - link logo to homepage
 - fix typos
 - make text case uniform
+- optimise images - file size & lazy-loading
