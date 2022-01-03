@@ -8,6 +8,7 @@
 - captcha
 - footer contact details with bubble design
 - dark mode
+- favicon
 
 ### In Progress
 
