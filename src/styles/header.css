@@ -22,6 +22,8 @@ header .logo {
 
 header .logo img {
   vertical-align: -0.3em;
+  width: auto;
+  height: 44px;
 }
 
 header .menu-btn {

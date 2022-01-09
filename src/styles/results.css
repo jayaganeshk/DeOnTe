@@ -40,6 +40,7 @@
 
 .results .cards .card img {
   width: 100%;
+  height: auto;
   max-width: 550px;
 }
 

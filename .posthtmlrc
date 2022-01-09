@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "posthtml-img-autosize": {
+      "processEmptySize": true,
+      "questionMarkAsVersion": true,
+      "root": "src"
+    }
+  }
+}
