@@ -9,9 +9,11 @@
 - footer contact details with bubble design
 - dark mode
 - favicon
+- remove phone number from contact details
 
 ### In Progress
 
+- set explicit img width & height (lighthouse recommendation to prevent layout shifts)
 
 ### Clarify
 
