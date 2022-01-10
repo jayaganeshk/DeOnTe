@@ -35,13 +35,18 @@ const setFormStatus = (status) => {
 
 const handleContactFormSubmit = (e) => {
   e.preventDefault();
-  setFormStatus("inprogress");
 
   const form = e.target;
   const formData = new FormData(form);
 
+  const isHoneypotFilled = formData.get("subject") !== "";
+
+  if (isHoneypotFilled) return;
+
   const api = "https://slhzfd2oof.execute-api.ap-south-1.amazonaws.com/dev/";
   const body = JSON.stringify(Object.fromEntries(formData));
+
+  setFormStatus("inprogress");
 
   fetch(api, { method: "POST", body })
     .then((response) => response.json())

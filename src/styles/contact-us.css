@@ -12,6 +12,10 @@
   padding: 20px 30px;
 }
 
+.contact-us .contact-form .input-subject {
+  display: none;
+}
+
 .contact-us .contact-form .form-status {
   font-size: 0.9em;
   margin: 10px;
