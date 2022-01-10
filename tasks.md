@@ -11,7 +11,8 @@
 
 ### In Progress
 
-- contact form
+- add success & error msg for contact form
+- fix header scroll issue
 
 ### Clarify
 
@@ -59,3 +60,4 @@
 - set explicit img width & height to prevent layout shift
 - fix footer to bottom
 - remove phone number from contact details
+- contact form
