@@ -614,7 +614,7 @@
         <div>
           <div class="contact-form">
             <h3 class="heading">Write to us</h3>
-            <form id="contact-form" class="form">
+            <form class="form">
               <div>
                 <label for="input-name">Your name</label>
                 <input type="text" name="name" id="input-name" required />
@@ -639,6 +639,17 @@
                 <button type="submit" class="button">Submit</button>
               </div>
             </form>
+
+            <div class="form-status">
+              <!-- for spacing -->
+              &nbsp;
+              <!-- for spacing -->
+              <span class="inprogress">Sending...</span>
+              <span class="success">
+                We have received your query. We'll contact you shortly.
+              </span>
+              <span class="error">An error occured. Please try again.</span>
+            </div>
           </div>
 
           <div class="contact-details">

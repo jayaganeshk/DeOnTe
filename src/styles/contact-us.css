@@ -12,6 +12,24 @@
   padding: 20px 30px;
 }
 
+.contact-us .contact-form .form-status {
+  font-size: 0.9em;
+  margin: 10px;
+}
+
+.contact-us .contact-form .form-status > * {
+  display: none;
+  font-weight: bold;
+}
+
+.contact-us .contact-form .form-status .success {
+  color: #056805;
+}
+
+.contact-us .contact-form .form-status .error {
+  color: #ff0000;
+}
+
 /* From tablet width onwards */
 @media (min-width: 768px) {
   .contact-us .contact-form,

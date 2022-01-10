@@ -2,7 +2,8 @@ import initRouter from "@vipranaraya14/view-router";
 
 const menuBtn = document.querySelector("header .menu-btn");
 const navBar = document.querySelector("nav");
-const contactForm = document.getElementById("contact-form");
+const contactForm = document.querySelector(".contact-form form");
+const formStatus = document.querySelector(".contact-form .form-status");
 
 const handleWindowLoadEvent = () => {
   const showView = initRouter("views-container");
@@ -20,23 +21,37 @@ const hideNavBar = (event) => {
   navBar.classList.remove("open");
 };
 
+const setFormStatus = (status) => {
+  const statusMsgs = [...formStatus.querySelectorAll("*")];
+
+  statusMsgs.forEach((statusMsg) => (statusMsg.style.display = "none"));
+
+  if (!status) return;
+
+  formStatus.querySelector(`.${status}`).style.display = "inline";
+
+  setTimeout(setFormStatus, 8000);
+};
+
 const handleContactFormSubmit = (e) => {
   e.preventDefault();
+  setFormStatus("inprogress");
 
-  const formData = new FormData(e.target);
+  const form = e.target;
+  const formData = new FormData(form);
 
-  const body = new URLSearchParams(formData).toString();
+  const api = "https://slhzfd2oof.execute-api.ap-south-1.amazonaws.com/dev/";
+  const body = JSON.stringify(Object.fromEntries(formData));
 
-  fetch("https://slhzfd2oof.execute-api.ap-south-1.amazonaws.com/dev/", {
-    method: "POST",
-    body: JSON.stringify(Object.fromEntries(formData)),
-  })
+  fetch(api, { method: "POST", body })
     .then((response) => response.json())
-    .then((data) => {
-      console.log("Success:", data);
+    .then(() => {
+      setFormStatus("success");
+      form.reset();
     })
     .catch((error) => {
-      console.error("Error:", error);
+      console.error("Contact Form Error:", error);
+      setFormStatus("error");
     });
 };
 
