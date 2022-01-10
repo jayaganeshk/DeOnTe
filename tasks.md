@@ -4,17 +4,14 @@
 
 - fix: scroll to top on page navigation
 - optimise page load delay
-- contact form api
 - captcha
 - footer contact details with bubble design
 - dark mode
 - favicon
 
-
 ### In Progress
 
-- remove phone number from contact details
-- fix footer to bottom
+- contact form
 
 ### Clarify
 
@@ -60,3 +57,5 @@
 - replace logo placeholder with logo img
 - fix label and input association
 - set explicit img width & height to prevent layout shift
+- fix footer to bottom
+- remove phone number from contact details
