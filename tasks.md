@@ -8,11 +8,11 @@
 - footer contact details with bubble design
 - dark mode
 - favicon
+- make contact form status msgs fancy
 
 ### In Progress
 
-- add success & error msg for contact form
-- fix header scroll issue
+- add honeypot for contact form
 
 ### Clarify
 
@@ -61,3 +61,5 @@
 - fix footer to bottom
 - remove phone number from contact details
 - contact form
+- fix header scroll issue
+- add success & error msg for contact form
