@@ -5,14 +5,13 @@
 - fix: scroll to top on page navigation
 - optimise page load delay
 - captcha
-- footer contact details with bubble design
 - dark mode
-- favicon
 - make contact form status msgs fancy
 
 ### In Progress
 
-- add honeypot for contact form
+- favicon
+- footer contact details with bubble design
 
 ### Clarify
 
@@ -63,3 +62,4 @@
 - contact form
 - fix header scroll issue
 - add success & error msg for contact form
+- add honeypot for contact form
