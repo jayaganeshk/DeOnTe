@@ -64,3 +64,8 @@ a:hover {
   fill: currentColor;
   stroke: currentColor;
 }
+
+.icon.icon-email svg {
+  vertical-align: -0.225em;
+  margin-right: 5px;
+}
