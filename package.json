@@ -4,7 +4,7 @@
   "description": "Website for Deep On Technology",
   "source": "src/index.html",
   "scripts": {
-    "build": "rm -rf dist && parcel build",
+    "build": "shx rm -rf dist && parcel build",
     "start": "parcel"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
   "devDependencies": {
     "parcel": "2.1.1",
     "posthtml-img-autosize": "^0.1.6",
-    "sharp": "^0.29.3"
+    "sharp": "^0.29.3",
+    "shx": "^0.3.4"
   }
 }
